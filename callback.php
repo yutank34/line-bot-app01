@@ -32,6 +32,18 @@ if ($message->{"text"} == '確認') {
             ]
         ]
     ];
+} elseif ($message->{"text"} == '元気やで') {
+      // ボタンタイプ
+      $messageData = [
+          'type' => 'text',
+          'text' => 'ほなら良かったわ'
+      ];
+} elseif ($message->{"text"} == 'まあまあや') {
+      // ボタンタイプ
+      $messageData = [
+          'type' => 'text',
+          'text' => 'なんや元気だしいな'
+      ];
 } elseif ($message->{"text"} == 'ボタン') {
     // ボタンタイプ
     $messageData = [
