@@ -17,17 +17,17 @@ if ($message->{"text"} == '確認') {
         'altText' => '確認ダイアログ',
         'template' => [
             'type' => 'confirm',
-            'text' => '元気ですかー？',
+            'text' => '元気かー？',
             'actions' => [
                 [
                     'type' => 'message',
-                    'label' => '元気です',
-                    'text' => '元気です'
+                    'label' => '元気やで',
+                    'text' => '元気やで'
                 ],
                 [
                     'type' => 'message',
-                    'label' => 'まあまあです',
-                    'text' => 'まあまあです'
+                    'label' => 'まあまあや',
+                    'text' => 'まあまあや'
                 ],
             ]
         ]
@@ -39,8 +39,8 @@ if ($message->{"text"} == '確認') {
         'altText' => 'ボタン',
         'template' => [
             'type' => 'buttons',
-            'title' => 'タイトルです',
-            'text' => '選択してね',
+            'title' => 'ボタンだよー',
+            'text' => '押してみてちょ',
             'actions' => [
                 [
                     'type' => 'postback',
